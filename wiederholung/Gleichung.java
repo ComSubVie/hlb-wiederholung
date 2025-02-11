@@ -9,11 +9,6 @@ public class Gleichung {
         b = Double.parseDouble(args[1]);
         c = Double.parseDouble(args[2]);
 
-        // Read a, b and c from buffer
-        a = Double.parseDouble(args[0]);
-        b = Double.parseDouble(args[1]);
-        c = Double.parseDouble(args[2]);
-
         if ( a == 0) {
             double x = -c / b;
 
