@@ -4,6 +4,11 @@ public class Gleichung {
         double b = 2.0;
         double c = 1.0;
 
+        // Read a, b and c from buffer
+        a = Double.parseDouble(args[0]);
+        b = Double.parseDouble(args[1]);
+        c = Double.parseDouble(args[2]);
+
         
         double x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
         double x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
