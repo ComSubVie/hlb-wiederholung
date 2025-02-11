@@ -13,6 +13,10 @@ public class Gleichung {
             double x = -c / b;
 
             System.out.println("x = " + x);
+        } else if (b*b == 4*a*c) {
+            double x = -b / (2 * a);
+
+            System.out.println("x = " + x);            
         } else {
             double x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
             double x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
